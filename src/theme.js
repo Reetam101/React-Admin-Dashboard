@@ -26,17 +26,28 @@ export const tokens = (mode) => ({
       800: "#080b12",
       900: "#040509"
     },
-    greenAccent: {
-      100: "#dbf5ee",
-      200: "#b7ebde",
-      300: "#94e2cd",
-      400: "#70d8bd",
-      500: "#4cceac",
-      600: "#3da58a",
-      700: "#2e7c67",
-      800: "#1e5245",
-      900: "#0f2922"
+    purpleAccent: {
+      100: "#ebd6f5",
+      200: "#d6adeb",
+      300: "#c284e0",
+      400: "#ad5bd6",
+      500: "#9932cc",
+      600: "#7a28a3",
+      700: "#5c1e7a",
+      800: "#3d1452",
+      900: "#1f0a29",
     },
+    // purpleAccent: {
+    //   100: "#dbf5ee",
+    //   200: "#b7ebde",
+    //   300: "#94e2cd",
+    //   400: "#70d8bd",
+    //   500: "#4cceac",
+    //   600: "#3da58a",
+    //   700: "#2e7c67",
+    //   800: "#1e5245",
+    //   900: "#0f2922"
+    // },
     redAccent: {
       100: "#f8dcdb",
       200: "#f1b9b7",
@@ -83,17 +94,28 @@ export const tokens = (mode) => ({
       800: "#a1a4ab",
       900: "#d0d1d5",
     },
-    greenAccent: {
-      100: "#0f2922",
-      200: "#1e5245",
-      300: "#2e7c67",
-      400: "#3da58a",
-      500: "#4cceac",
-      600: "#70d8bd",
-      700: "#94e2cd",
-      800: "#b7ebde",
-      900: "#dbf5ee",
+    purpleAccent: {
+      100: "#1f0a29",
+      200: "#3d1452",
+      300: "#5c1e7a",
+      400: "#7a28a3",
+      500: "#9932cc",
+      600: "#ad5bd6",
+      700: "#c284e0",
+      800: "#d6adeb",
+      900: "#ebd6f5",
     },
+    // purpleAccent: {
+    //   100: "#0f2922",
+    //   200: "#1e5245",
+    //   300: "#2e7c67",
+    //   400: "#3da58a",
+    //   500: "#4cceac",
+    //   600: "#70d8bd",
+    //   700: "#94e2cd",
+    //   800: "#b7ebde",
+    //   900: "#dbf5ee",
+    // },
     redAccent: {
       100: "#2c100f",
       200: "#58201e",
@@ -133,7 +155,7 @@ export const themeSettings = (mode) => {
             main: colors.primary[500],
           },
           secondary: {
-            main: colors.greenAccent[500]
+            main: colors.purpleAccent[500]
           },
           neutral: {
             dark: colors.grey[700],
@@ -141,7 +163,7 @@ export const themeSettings = (mode) => {
             light: colors.grey[100]
           },
           background: {
-            default: colors.primary[500],
+            default: colors.primary[700],
 
           }
         } : {
@@ -149,7 +171,7 @@ export const themeSettings = (mode) => {
             main: colors.primary[100],
           },
           secondary: {
-            main: colors.greenAccent[500]
+            main: colors.purpleAccent[500]
           },
           neutral: {
             dark: colors.grey[700],
