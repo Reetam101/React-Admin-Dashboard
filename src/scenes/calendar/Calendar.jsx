@@ -137,16 +137,6 @@ const Calendar = () => {
         </Box>
       </Box>
 
-
-
-
-      {/* 
-      <Button style={{
-        backgroundColor: colors.purpleAccent[
-          500
-        ],
-        color: colors.grey[200]
-      }} onClick={handleDateClick}>Open</Button> */}
       <Dialog open={open} onClose={handleClose}>
         <DialogTitle>Add a new Event</DialogTitle>
         <DialogContent>
